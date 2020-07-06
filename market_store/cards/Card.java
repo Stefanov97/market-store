@@ -8,7 +8,7 @@ public abstract class Card {
     private double turnover;
     private double initialDiscountRate;
 
-    public Card(Cardholder cardHolder, CardType cardType, double initialDiscountRate) {
+    protected Card(Cardholder cardHolder, CardType cardType, double initialDiscountRate) {
         this.cardHolder = cardHolder;
         this.cardType = cardType;
         this.initialDiscountRate = initialDiscountRate;
